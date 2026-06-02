@@ -1,0 +1,44 @@
+## OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+## Environment
+.env
+.env.local
+.env.*.local
+
+## Laravel
+laravel-app/vendor/
+laravel-app/node_modules/
+laravel-app/public/build/
+laravel-app/public/hot
+laravel-app/public/storage
+laravel-app/storage/*.key
+laravel-app/storage/app/public/*
+!laravel-app/storage/app/public/.gitkeep
+laravel-app/storage/framework/cache/data/
+laravel-app/storage/framework/sessions/
+laravel-app/storage/framework/testing/
+laravel-app/storage/framework/views/
+laravel-app/storage/logs/*.log
+laravel-app/bootstrap/cache/*.php
+laravel-app/.phpunit.result.cache
+
+## Python
+ml-service/__pycache__/
+ml-service/.pytest_cache/
+ml-service/venv/
+ml-service/.venv/
+ml-service/*.pyc
+ml-service/app/__pycache__/
+
+## Docker
+docker/data/
+
+## Generated artifacts
+*.log
+*.tmp
+storage/clustering-models/*.pkl
